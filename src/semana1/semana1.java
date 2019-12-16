@@ -29,6 +29,7 @@ public class semana1 extends javax.swing.JFrame {
 
         btnactivar = new javax.swing.JButton();
         lblmensaje = new javax.swing.JLabel();
+        lblnuevo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -38,6 +39,8 @@ public class semana1 extends javax.swing.JFrame {
                 btnactivarActionPerformed(evt);
             }
         });
+
+        lblnuevo.setText("jLabel1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -50,7 +53,10 @@ public class semana1 extends javax.swing.JFrame {
                         .addComponent(btnactivar))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(136, 136, 136)
-                        .addComponent(lblmensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(lblmensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(149, 149, 149)
+                        .addComponent(lblnuevo)))
                 .addContainerGap(140, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -60,7 +66,9 @@ public class semana1 extends javax.swing.JFrame {
                 .addComponent(btnactivar)
                 .addGap(57, 57, 57)
                 .addComponent(lblmensaje, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(115, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(lblnuevo)
+                .addContainerGap(81, Short.MAX_VALUE))
         );
 
         pack();
@@ -69,7 +77,7 @@ public class semana1 extends javax.swing.JFrame {
     private void btnactivarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnactivarActionPerformed
 
         lblmensaje.setText("hola");
-        
+        lblnuevo.setText("mi rex");
         
         
         
@@ -113,5 +121,6 @@ public class semana1 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnactivar;
     private javax.swing.JLabel lblmensaje;
+    private javax.swing.JLabel lblnuevo;
     // End of variables declaration//GEN-END:variables
 }
