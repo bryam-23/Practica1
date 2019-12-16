@@ -79,7 +79,7 @@ public class semana1 extends javax.swing.JFrame {
         lblmensaje.setText("hola");
         lblnuevo.setText("mi rex");
         lblnuevo2.setText("como te va");
-        
+        lblnuevo3.setText("que andas de sapo");
         
         
     }//GEN-LAST:event_btnactivarActionPerformed
